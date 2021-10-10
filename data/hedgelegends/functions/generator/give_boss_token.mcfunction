@@ -1,0 +1,1 @@
+give @p jack_o_lantern{display:{Name:'{"text":"Boss Spawn Token","color":"dark_red","bold":true}',Lore:['{"text":"Right-click this on boss spawn locations, located near beacons","color":"dark_purple"}']},Tags:["HLBossToken"],Enchantments:[{}]} 1

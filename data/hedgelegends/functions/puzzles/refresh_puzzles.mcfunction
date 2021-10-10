@@ -1,0 +1,4 @@
+function hedgelegends:puzzles/cave/reset_caves
+function hedgelegends:puzzles/target/reset_targets
+function hedgelegends:puzzles/shrine/reset_shrines
+function hedgelegends:dev/secret/lol_reset

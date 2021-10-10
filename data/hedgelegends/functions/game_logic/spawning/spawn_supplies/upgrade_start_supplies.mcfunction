@@ -1,0 +1,2 @@
+execute if score $supplies_state gamestate matches ..2 run scoreboard players add $supplies_state gamestate 1
+schedule function hedgelegends:game_logic/spawning/spawn_supplies/upgrade_start_supplies 600s

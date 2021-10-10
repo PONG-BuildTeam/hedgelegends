@@ -1,0 +1,2 @@
+execute unless entity @e[tag=HLBossSpawn,dx=0] positioned ^ ^ ^0.05 run function hedgelegends:game_logic/bosses/ray_to_boss_villager
+execute if entity @e[tag=HLBossSpawn,dx=0] as @e[tag=HLBossSpawn,dx=0,limit=1] run function hedgelegends:game_logic/bosses/spawn_my_boss

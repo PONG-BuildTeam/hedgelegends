@@ -1,0 +1,1 @@
+summon item ~ ~ ~ {Item:{id:"minecraft:gold_nugget",Count:1b,tag:{display:{Name:'{"bold":true,"color":"gold","text":"Gold Coin"}',Lore:['{"color":"dark_purple","text":"Used to buy items at villager shops"}']}}}}

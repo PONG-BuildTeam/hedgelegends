@@ -1,0 +1,36 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_interacted_with_entity",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "nbt": "{Tags:[\"HLBossHead\"]}"
+                  }
+                }
+              }
+            }
+          ],
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:villager",
+                "nbt": "{Tags:[\"HLTurnin\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "hedgelegends:game_logic/head_detection/turn_in_head"
+    }
+  }
+  

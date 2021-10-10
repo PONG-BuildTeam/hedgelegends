@@ -1,0 +1,211 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"long_invisibility\"}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"long_fire_resistance\"}",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:strong_swiftness\"}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Potion:\"minecraft:long_strength\"}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"smite\",lvl:5s}]}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"thorns\",lvl:3s}]}",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"protection\",lvl:4s}]}",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"projectile_protection\",lvl:4s}]}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"looting\",lvl:3s}]}",
+              "count": 1
+            }
+          ],
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"knockback\",lvl:2s}]}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"fire_aspect\",lvl:2s}]}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{StoredEnchantments:[{id:\"sharpness\",lvl:5s}]}",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_hoe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\",lvl:1}]}",
+              "count": 1
+            }
+          ],
+          "weight": 2
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:entity"
+}

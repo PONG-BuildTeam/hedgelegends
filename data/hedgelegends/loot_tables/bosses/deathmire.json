@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wither_skeleton_skull",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Tags:[\"HLDeathmireHead\",\"HLBossHead\"],display:{Name:\"{\\\"text\\\":\\\"Deathmire's Skull\\\",\\\"italic\\\":\\\"false\\\"}\"}}"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "hedgelegends:boss_drop"
+                }
+            ]
+        }
+    ]
+}

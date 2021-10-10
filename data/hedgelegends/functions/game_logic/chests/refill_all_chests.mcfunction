@@ -1,0 +1,1 @@
+execute as @e[tag=HLChestMarker] at @s run function hedgelegends:game_logic/chests/refill_specific_chest

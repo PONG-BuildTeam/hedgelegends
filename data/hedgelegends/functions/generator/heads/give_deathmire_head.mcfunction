@@ -1,0 +1,1 @@
+give @s minecraft:wither_skeleton_skull{Tags:["HLDeathmireHead","HLBossHead"],display:{Name:"{\"text\":\"Deathmire's Skull\",\"italic\":\"false\"}"}} 1

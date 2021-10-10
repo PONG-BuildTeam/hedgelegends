@@ -1,0 +1,5 @@
+kill @e[tag=HLChestMarker]
+function hedgelegends:generator/chests/summon_loot_room_chests
+function hedgelegends:generator/chests/summon_fight_room_chests
+function hedgelegends:generator/chests/summon_common_room_chests
+function hedgelegends:generator/chests/summon_puzzle_room_chests

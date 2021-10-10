@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {Tags:["mordath","mordath_fake"],DeathLootTable:"minecraft:empty",CustomNameVisible:1b,CustomName:'{"text":"Mardath","color":"dark_purple","bold":true}',Health:8f,Attributes:[{Name:generic.max_health,Base:8}],HandItems:[{id:"minecraft:iron_axe",Count:1b,tag:{Unbreakable:1b}},{}],HandDropChances:[0.0F,0.0F],Team:"Boss"}

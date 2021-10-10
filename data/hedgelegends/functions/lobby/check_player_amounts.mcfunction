@@ -1,0 +1,8 @@
+execute store result score $red_team teamplayercount if entity @a[team=RedTeam]
+execute store result score $blue_team teamplayercount if entity @a[team=BlueTeam]
+execute store result score $magenta_team teamplayercount if entity @a[team=MagentaTeam]
+execute store result score $white_team teamplayercount if entity @a[team=WhiteTeam]
+execute store result score $orange_team teamplayercount if entity @a[team=OrangeTeam]
+execute store result score $yellow_team teamplayercount if entity @a[team=YellowTeam]
+execute store result score $lime_team teamplayercount if entity @a[team=LimeTeam]
+execute store result score $cyan_team teamplayercount if entity @a[team=CyanTeam]

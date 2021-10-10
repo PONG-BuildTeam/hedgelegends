@@ -1,0 +1,2 @@
+execute unless entity @e[tag=HLTurnin,dx=0] positioned ^ ^ ^0.05 run function hedgelegends:game_logic/head_detection/ray_to_turn_in
+execute if entity @e[tag=HLTurnin,tag=!HLTurnedin,dx=0] as @e[tag=HLTurnin,dx=0,limit=1] run function hedgelegends:game_logic/head_detection/try_turn_in
