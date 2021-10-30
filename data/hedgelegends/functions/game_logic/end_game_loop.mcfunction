@@ -15,6 +15,7 @@ schedule clear hedgelegends:game_logic/spawning/spawn_supplies/upgrade_start_sup
 
 #Refresh map
 execute as @e[type=!minecraft:player] unless entity @s[tag=HLPermEntity] run function hedgelegends:generator/clean_kill
+function hedgelegends:generator/refresh_lobby
 
 ##Deal with players
 

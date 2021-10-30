@@ -9,7 +9,7 @@ scoreboard objectives add leave minecraft.custom:minecraft.leave_game
 
 ##Summin spectate point for respawn, bc idk where to put this
 kill @e[tag=respawn_anchor]
-summon minecraft:armor_stand 10.5 126 7.5 {NoGravity:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["respawn_anchor","HLPermEntity"],Rotation:[-90.0F,90.0F]}
+summon minecraft:armor_stand 10.5 130 7.5 {NoGravity:1b,Invisible:1b,Invulnerable:1b,Marker:1b,Tags:["respawn_anchor","HLPermEntity"],Rotation:[-90.0F,90.0F]}
 
 ##Set up teams
 team add Spectator
