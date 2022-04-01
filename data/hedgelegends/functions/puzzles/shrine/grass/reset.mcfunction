@@ -1,4 +1,5 @@
 kill @e[tag=HLGrassShrine]
+fill 51 82 92 51 83 92 air
 setblock 51 82 92 structure_block[mode=load]{name:"hedgelegends:grass_shrine",rotation:"NONE",mirror:"NONE",mode:"LOAD"}
 setblock 51 83 92 redstone_block
 summon armor_stand 54.5 86.2 95.5 {NoGravity:1b,Silent:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["HLShrineStuff","HLGrassShrine"],Passengers:[{id:"minecraft:item",NoGravity:1b,CustomNameVisible:0b,Age:-32768s,PickupDelay:32767,Tags:["HLShrineStuff","HLGrassShrine"],Item:{id:"minecraft:enchanted_golden_apple",Count:1b}}]}
