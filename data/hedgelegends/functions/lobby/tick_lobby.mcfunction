@@ -1,6 +1,13 @@
 ##I have murdered all triggers, now only one remains
 execute as @a if score @s chooseteam matches 1.. run function hedgelegends:lobby/choose_team/join_team
 scoreboard players enable @a chooseteam
+#lol i added more
+execute as @a[scores={countdown=1..}] if score $Count countdown matches 1.. run function hedgelegends:lobby/countdown/interrupt
+scoreboard players reset @a countdown
+scoreboard players enable @a countdown
+execute as @a[scores={tutorial=1..}] unless score $Count countdown matches 1.. run function hedgelegends:tutorial/start
+scoreboard players reset @a tutorial
+execute unless score $TutorialState gamestate matches 1.. run scoreboard players enable @a tutorial
 
 ##Get those fuckers who left the game when gamestate changed back to lobby
 execute as @a[tag=HLInGame] run function hedgelegends:lobby/join_lobby

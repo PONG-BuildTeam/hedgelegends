@@ -2,5 +2,13 @@
     "pack": {
         "pack_format": 6,
         "description": "Data pack for Hedge Legends"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancements/.*"
+            }
+        ]
     }
 }

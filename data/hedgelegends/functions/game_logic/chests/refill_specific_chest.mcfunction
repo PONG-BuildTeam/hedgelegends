@@ -8,4 +8,3 @@ execute if entity @s[tag=HLNorthWaterlog] run setblock ~ ~ ~ chest[facing=north,
 execute if entity @s[tag=HLCommonChest] run data modify block ~ ~ ~ LootTable set value "hedgelegends:common_chest"
 execute if entity @s[tag=HLRareChest] run data modify block ~ ~ ~ LootTable set value "hedgelegends:rare_chest"
 execute if entity @s[tag=HLEpicChest] run data modify block ~ ~ ~ LootTable set value "hedgelegends:epic_chest"
-execute if entity @s[tag=HLWaterlog] run data 

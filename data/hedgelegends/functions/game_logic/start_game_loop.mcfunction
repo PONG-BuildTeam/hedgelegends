@@ -9,6 +9,8 @@ scoreboard objectives add playerchange dummy
 scoreboard players set @a playerchange 0
 scoreboard players set $num_of_changes playerchange 0
 scoreboard players set $supplies_state gamestate 0
+scoreboard players set $Count countdown -1
+scoreboard players reset * tutorial
 # bosses are static enough I can clump all this shit into one function
 scoreboard objectives add bossdata dummy
 scoreboard players set $hs_state bossdata 0

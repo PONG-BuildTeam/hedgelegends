@@ -6,6 +6,9 @@ scoreboard objectives add teamplayercount dummy
 scoreboard objectives add playerid dummy
 scoreboard objectives add respawntimer dummy
 scoreboard objectives add leave minecraft.custom:minecraft.leave_game
+scoreboard objectives add countdown trigger
+scoreboard objectives add tutorial trigger
+execute unless score $TutorialState gamestate matches 1.. run scoreboard players set $TutorialState gamestate 0
 
 ##Summin spectate point for respawn, bc idk where to put this
 kill @e[tag=respawn_anchor]
@@ -80,3 +83,4 @@ gamerule logAdminCommands false
 gamerule mobGriefing false
 gamerule showDeathMessages true
 gamerule spectatorsGenerateChunks false
+gamerule sendCommandFeedback false
