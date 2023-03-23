@@ -1,6 +1,5 @@
 kill @e[tag=HLIceShrine]
-#setblock -37 82 -84 structure_block[mode=load]{name:"hedgelegends:ice_shrine_open",rotation:"NONE",mirror:"NONE",mode:"LOAD"}
-#setblock -37 83 -84 redstone_block
+execute positioned -34 82 -81 run function hedgelegends:puzzles/shrine/clear_shrine_items
 place template hedgelegends:ice_shrine_open -37 82 -84
 #summon lightning_bolt -33.5 75 -80.5
 particle block glass -33.5 86.5 -80.5 0.2 0.1 0.2 1 20 normal

@@ -1,6 +1,5 @@
 kill @e[tag=HLGrassShrine]
-#setblock 51 82 92 structure_block[mode=load]{name:"hedgelegends:grass_shrine_open",rotation:"NONE",mirror:"NONE",mode:"LOAD"}
-#setblock 51 83 92 redstone_block
+execute positioned 54 82 95 run function hedgelegends:puzzles/shrine/clear_shrine_items
 place template hedgelegends:grass_shrine_open 51 82 92
 #summon lightning_bolt -33.5 75 -80.5
 particle block glass 54.5 86.5 95.5 0.2 0.1 0.2 1 20 normal
