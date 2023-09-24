@@ -1,5 +1,5 @@
 kill @e[tag=HLTarsusSpawn]
-summon villager 59.3 80.25 58.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
-summon villager 59.3 80.25 58.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
-summon villager 59.7 80.25 58.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
-summon villager 59.7 80.25 58.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
+summon villager 59.3 80.25 58.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
+summon villager 59.3 80.25 58.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
+summon villager 59.7 80.25 58.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
+summon villager 59.7 80.25 58.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLTarsusSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
