@@ -1,5 +1,5 @@
 kill @e[tag=HLHallowskullSpawn]
-summon villager -39.3 86.25 -42.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
-summon villager -39.3 86.25 -42.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
-summon villager -39.7 86.25 -42.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
-summon villager -39.7 86.25 -42.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],ActiveEffects:[{Id:14b,Amplifier:0b,Duration:999999,ShowParticles:0b}]}
+summon villager -39.3 86.25 -42.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
+summon villager -39.3 86.25 -42.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
+summon villager -39.7 86.25 -42.3 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
+summon villager -39.7 86.25 -42.7 {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Tags:["HLBossSpawn","HLHallowskullSpawn"],active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b}]}
