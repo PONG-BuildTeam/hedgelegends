@@ -19,9 +19,9 @@
                 "function": "set_name",
                 "name": [
                     {
-                    "bold": "true",
-                    "color": "gold",
-                    "text": "Gold Coin"
+                  "bold": true,
+                  "color": "gold",
+                  "text": "Gold Coin"
                     }
                 ]
                 },
