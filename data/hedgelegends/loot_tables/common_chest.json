@@ -23,7 +23,7 @@
               "function": "set_name",
               "name": [
                 {
-                  "bold": "true",
+                  "bold": true,
                   "color": "gold",
                   "text": "Gold Coin"
                 }

@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{Tags:[\"HLDeathmireHead\",\"HLBossHead\"],display:{Name:\"{\\\"text\\\":\\\"Deathmire's Skull\\\",\\\"italic\\\":\\\"false\\\"}\"}}"
+                            "tag": "{Tags:[\"HLDeathmireHead\",\"HLBossHead\"],display:{Name:\"{\\\"text\\\":\\\"Deathmire's Skull\\\",\\\"italic\\\":false}\"}}"
                         }
                     ]
                 }

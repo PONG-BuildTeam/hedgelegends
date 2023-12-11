@@ -21,9 +21,10 @@
               "function": "set_name",
               "name": [
                 {
-                  "text": "Gold Coin",
+                  "bold": true,
                   "color": "gold",
-                  "bold": "true"
+                  "text": "Gold Coin"
+
                 }
               ]
             },
@@ -31,8 +32,8 @@
               "function": "set_lore",
               "lore": [
                 {
-                  "text": "Used to buy items at villager shops",
-                  "color": "dark_purple"
+                  "color": "dark_purple",
+                  "text": "Used to buy items at villager shops"
                 }
               ]
             }
